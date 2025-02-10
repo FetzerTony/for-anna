@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+    <title>Persönlich für Anna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <canvas id="fireworksCanvas"></canvas>
+    <div id="container" class="container">
+        <h1 id="question"></h1>
+        <div class="buttons" style="display: none;">
+            <button id="yes" class="button">Yes ❤️</button>
+            <button id="no" class="button">No 🖤</button>
+            <button onmouseover="uselessText(true)" onmouseout="uselessText(false)" id="idk" class="button">You decide.</button>
+        </div>
+    </div>
+</body>
+</html>
